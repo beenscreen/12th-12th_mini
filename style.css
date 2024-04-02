@@ -1,0 +1,161 @@
+/*Global Style*/
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+/*header*/
+
+header{
+    height: 78px;
+    padding: 24px 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#header-brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navigation-menu {
+    width: 233px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    font-size: 17px;
+}
+#profile-summary {
+    padding: 42px;
+}
+h1 {
+    font-size: 20px
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/* Section */
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 42px 24px;
+    
+}
+
+.simple-profile {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 320px;
+}
+#article-img {
+    width: 124px;
+    height: 124px;
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+.info-label {
+    font-size: 20px;
+    margin-bottom: 22px;
+    color: #9f9f9f;
+}
+.info-value {
+    font-size: 32px;
+}
+
+/* Section*/
+#favorite {
+    padding: 42px 24px 82px 24px;
+    background-color: beige;
+}
+.favorites-title {
+    background-color: yellow;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.favorite-gallery {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    object-fit: cover;
+}
+.image-block {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    flex: 1 0 320px;
+}
+.favorite-image {
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.image-caption {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+}
+.caption-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+.caption-subtitle {
+    font-size: 32px;
+    font-weight: 600;
+}
+/* footer*/
+footer {
+    background-color: black;
+    padding: 42px 24px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    width: 400px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contact-details {
+    width: 400px;
+    font-size: 17px;
+    font-weight: 400;
+    height: 137px;
+}
+
+.contact-info,
+.copyright {
+    margin-bottom: 12px;
+}
+
+.social-media-links {
+    margin-top: 30px;
+}
+.social-icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 24px;
+}
